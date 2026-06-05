@@ -111,16 +111,6 @@ export function Modalities() {
                         {r.desc}
                       </motion.p>
                     </div>
-                    <span
-                      className={`mono hidden shrink-0 self-center text-lg transition-all duration-300 sm:block ${
-                        active
-                          ? "translate-x-0 text-amber opacity-100"
-                          : "-translate-x-2 opacity-0"
-                      }`}
-                      aria-hidden
-                    >
-                      →
-                    </span>
                   </div>
                 </motion.li>
               );
