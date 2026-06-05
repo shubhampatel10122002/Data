@@ -39,16 +39,18 @@ export function Closing() {
 
           <div className="mt-10 flex flex-wrap items-center gap-4">
             <a
-              href="mailto:hello@sarva.ai"
+              href="mailto:hello@sarvahq.com"
               className="group inline-flex items-center gap-2 rounded-full bg-amber px-7 py-4 text-sm font-medium uppercase tracking-[0.1em] text-void transition-all hover:bg-amber-soft"
             >
-              hello@sarva.ai
+              hello@sarvahq.com
               <span className="transition-transform duration-300 group-hover:translate-x-1">
                 →
               </span>
             </a>
             <a
-              href="mailto:hello@sarva.ai?subject=Custom%20dataset%20enquiry"
+              href="https://calendly.com/sp8484-nyu/30min"
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-flex items-center gap-2 rounded-full border border-line px-7 py-4 text-sm font-medium uppercase tracking-[0.1em] text-bone-dim transition-colors hover:border-bone hover:text-bone"
             >
               Book a scoping call
@@ -60,8 +62,8 @@ export function Closing() {
         <div className="mt-24 flex flex-col gap-8 border-t border-line pt-8 sm:flex-row sm:items-center sm:justify-between">
           <Wordmark className="h-5 w-auto text-bone" />
           <div className="mono flex flex-wrap gap-x-8 gap-y-2 text-[11px] uppercase tracking-[0.16em] text-bone-faint">
-            <span>Ahmedabad · Gujarat · IN</span>
-            <span>23.0225° N, 72.5714° E</span>
+            <span>33 W 17th St, New York, NY 10011</span>
+            <span>Data collected in Gujarat, India</span>
             <span>© {new Date().getFullYear()} Sarva</span>
           </div>
         </div>

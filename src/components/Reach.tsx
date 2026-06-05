@@ -19,7 +19,6 @@ const stats: { value: React.ReactNode; label: string }[] = [
   { value: <Counter to={150} suffix="+" />, label: "manufacturing facilities" },
   { value: <Counter to={8} />, label: "industry verticals" },
   { value: <Counter to={5} />, label: "synced modalities" },
-  { value: "1", label: "industrial ecosystem — Gujarat" },
 ];
 
 export function Reach() {
@@ -41,7 +40,7 @@ export function Reach() {
         </div>
 
         {/* stats */}
-        <div className="mt-14 grid grid-cols-2 gap-px overflow-hidden rounded-2xl border border-line bg-line lg:grid-cols-4">
+        <div className="mt-14 grid grid-cols-1 gap-px overflow-hidden rounded-2xl border border-line bg-line sm:grid-cols-3">
           {stats.map((s, i) => (
             <motion.div
               key={i}

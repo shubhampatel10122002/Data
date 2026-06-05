@@ -32,7 +32,7 @@ const notoDevanagari = Noto_Sans_Devanagari({
   display: "swap",
 });
 
-const siteUrl = "https://sarva.ai";
+const siteUrl = "https://sarvahq.com";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
